@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="androidSampleTest" duration-ms="13081" started-at="2019-01-04T18:06:01Z" finished-at="2019-01-04T18:06:14Z">
+    <groups>
+      <group name="smoketest">
+        <method signature="androidSampleTest.SampleTest()[pri:0, instance:androidSampleTest@51565ec2]" name="SampleTest" class="androidSampleTest"/>
+      </group> <!-- smoketest -->
+    </groups>
+    <test name="Command line test" duration-ms="13081" started-at="2019-01-04T18:06:01Z" finished-at="2019-01-04T18:06:14Z">
+      <class name="androidSampleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:androidSampleTest@51565ec2]" name="setup" is-config="true" duration-ms="7512" started-at="2019-01-04T18:06:01Z" finished-at="2019-01-04T18:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SampleTest()[pri:0, instance:androidSampleTest@51565ec2]" name="SampleTest" duration-ms="3151" started-at="2019-01-04T18:06:08Z" finished-at="2019-01-04T18:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="teardsown()[pri:0, instance:androidSampleTest@51565ec2]" name="teardsown" is-config="true" duration-ms="2390" started-at="2019-01-04T18:06:12Z" finished-at="2019-01-04T18:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardsown -->
+      </class> <!-- androidSampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- androidSampleTest -->
+</testng-results>
