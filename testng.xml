@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuit">
+    <test name="SampleTest1">
+<!--        <groups>
+            <run>
+                <include name="smoketest"/>
+            </run>
+        </groups>
+-->        <classes>
+           <class name="androidSampleTest" />
+        </classes>
+    </test>
+
+    <test name="SampleTest2">
+        <classes>
+            <class name="testHelloWorld" />
+        </classes>
+    </test>
+
+</suite>
