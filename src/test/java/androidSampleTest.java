@@ -47,7 +47,7 @@ public class androidSampleTest {
 
         String strSum = driver.findElementById("com.veronicaapps.veronica.simplecalculator:id/editText_result").getText().toString();
 
-        System.out.println("The SumTotal is: " + strSum);
+        System.out.println("The SumTotal is as: " + strSum);
     }
 
     @AfterClass
